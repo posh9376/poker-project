@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poker</title>
+    <link rel="shortcut icon" href="./cards/pk-lg.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="item-box">
+            <div class="item"><a href="#">Home</a></div>
+            <div class="item"><a href="#">About</a></div>
+            <div class="item"><a href="#">Gameplay</a></div>
+            <div class="item"><a href="#">Instructions</a></div>
+        </div>
+       
+    </div>
+    <div class="img-abt">
+        <div class="logo">
+            <img class="logo-img" src="./cards/pk-lg.jpg" alt="poker logo" >
+        </div>
+        <div class="about" id="About">
+            <H2>About</H2>
+            <p class="abt">Poker is a popular card game that combines skill, strategy, and chance. 
+                Players bet on the value of their hands, with the goal of winning chips or money from other participants by either holding the best hand or convincing others to fold through strategic bluffing.
+                Poker comes in various forms, like <span>Texas Hold'em</span> , <span>Omaha</span>, and <span>Seven-Card Stud</span> , each with its own rules and nuances.
+                It is played in casinos, at home, and online, attracting both casual players and professional competitors in high-stakes tournaments.
+                Success in poker relies on understanding probability, psychology, and timing.
+            </p>
+            <a href="./cards/cheatsheet.jpg" class="link">cheatsheet</a>
+        </div>
+    </div>
+    
+
+    <div class="main-container">
+        <div class="div1">
+            <h2>GAMEPLAY</h2>
+            <div class="content">
+                <div class="grid-template-1">player 1</div>
+                <div class="grid-template-2"></div>
+                <div class="grid-template-3">
+                    <div class="player-1-cards">
+                        <div class="p1-cards">
+                            <div class="card1 c1"></div>
+                            <div class="card1 c2"></div>
+                        </div>
+                    </div>
+                    <div class="community">
+                        <div class="community-cards">
+                            <div class="com-card1 kadi"></div>
+                            <div class="com-card2 kadi"></div>
+                            <div class="com-card3 kadi"></div>
+                            <div class="com-card4 kadi"></div>
+                            <div class="com-card5 kadi"></div>
+                        </div>
+                        <div class="pot">
+                            <div class="players-info">
+                                <p>PLAYERS IN: 2</p>
+                            </div>
+                            <div class="pot-info">
+                                <p class="cbet" >CURRENT BET : $0</p>
+                                <P class="ptotal">POT TOTAL: $0</P>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="player-cards"> 
+                        <div class="p2-cards">
+                            <div class="card2 myC1"></div>
+                            <div class="card2 myC2"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-template-4">player 2
+                    <button id="call">call</button>
+                    <button id="raise">raise</button>
+                    <button id="fold">fold</button>
+
+                </div>
+                
+            </div>
+        </div>
+        <div class="div2">
+            <h2>INSRUCTIONS</h2>
+                <Ul>
+                    <li>The dealer deals two carsd to each player. <button id="deal">deal</button></li>
+                    <li>Post the blinds: Players place forced bets called the small blind and big blind to start of the game. <button id="post">post $20</button></li>
+                    <li>First betting round:Players can: 
+                        <ol>
+                            <li>call- match the existing bet (press call buton)</li>
+                            <li>raise - raise the current betting value</li>
+                            <li>fold - discard their hand and the oponent wins</li>
+                        </ol>
+                    </li>
+
+                    <li>The Flop: The dealer reveals three community cards face up on the table. <button id="flop">Flop</button></li>
+                    <li>Second betting round: Another round of betting starts with the player left of the dealer.</li>
+                    <li>The Turn: The dealer adds a fourth community card.  <button id="turn">The Turn</button></li>
+                    <li>Third betting round: Players bet again, starting from the left of the dealer.</li>
+                    <li>The River: A final, fifth community card is revealed. <button id="reveal">The River</button></li>
+                    <li>Final betting round: One last chance to bet, raise, or fold.</li>
+                    <li>Showdown: If multiple players remain, they reveal their hands. The player with the best combination of their two cards and the five community cards wins. <button id="winner">Reveal</button></li>
+                </Ul>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

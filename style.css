@@ -1,0 +1,195 @@
+body{
+    background-color: rgb(19, 16, 16);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    height: 4vh;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+.item-box{
+    display: flex;
+    gap: 10px;
+    height: 100%;   
+}
+.item{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.item:hover{
+    color: black;
+    background-color: gold;
+    box-shadow: 0 0 20px gold,0 0 50px gold;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+}
+span{
+    color: gold;
+    font-style: italic;
+}
+.abt{
+    margin-left: 50px;
+}
+.link:hover{
+    color: black;
+    box-shadow: 0 0 5px gold,0 0 10px gold,0 0 20px gold,0 0 30px gold, inset 0 0 5px gold,inset 0 0 20px gold,inset 0 0 50px gold, inset 0 0 100px gold;
+}
+.img-abt{
+    height: 25vh;
+    display: flex;
+    gap: 20px;
+}
+.logo-img{
+    height: 150px;
+    margin-top: 20%;
+    mix-blend-mode: hard-light;
+    border: 3px solid gold;
+    border-radius: 10px;
+    box-shadow:0 0 20px gold;
+}
+.about{
+    width: 70%;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-style: oblique;
+    font-family: cursive;
+    text-decoration: underline;
+    text-decoration-color: gold;
+}
+button, .link{
+    font-size: large;
+    width: 100px;
+    padding: 5px;
+    background-color: transparent;
+    color: gold;
+    border: 3px solid gold;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gold, inset 0 0 5px gold;
+}
+button:hover{
+    color: black;
+    box-shadow: 0 0 5px gold,0 0 10px gold,0 0 20px gold,0 0 30px gold, inset 0 0 5px gold,inset 0 0 20px gold,inset 0 0 50px gold, inset 0 0 100px gold;
+}
+.main-container{
+    height: 70vh;
+    display: flex
+}
+.div1{
+    width: 80%;
+}
+.content{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr 0.3fr;
+
+}
+.grid-template-1{
+    grid-column: 1/-1;
+    text-align: center;
+}
+.grid-template-2{
+    grid-row:2/3 ;
+    text-align: center;
+}
+.grid-template-3{
+    grid-area: 2 / 1/3/-1;
+    border: 10px solid gold;
+    border-radius: 100px;
+    background-color: green;
+   
+}
+.grid-template-4{
+    grid-column: 1/-1;
+    text-align: center;
+}
+.player-1-cards{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+.community{
+    height: 60%;
+    border-radius: 100px;
+    box-shadow: 0 0 5px gold, inset 0 0 5px black;
+}
+.player-cards{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+.p1-cards{
+    display: flex;
+    gap: 10px;
+
+    
+}
+.card1{
+    width: 60px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+
+}
+.p2-cards{
+    display: flex;
+    gap: 10px;
+    
+}
+.card2{
+    width: 60px;
+    box-shadow: 0 0 5px black;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+.community-cards{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.kadi{
+    width: 60px;
+    height: 80px;
+    border-radius: 4px;
+    box-shadow: 0 0  5px black;
+}
+.pot{
+    display: flex;
+    color: black;
+}
+.players-info{
+    width: 50%;
+    text-align: center;
+}
+.pot-info{
+    width: 50%;
+    text-align: center;
+}
+img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    line-height: 40px;
+}
